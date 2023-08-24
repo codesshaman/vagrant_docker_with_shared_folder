@@ -20,7 +20,7 @@ Vagrant.configure(2) do |config|
     config.vm.define 'debian' do |debian|
         debian.vm.network :private_network, 
         ip: VIRTUAL_HOST_PRIVATE_IP_ADDRESS
-        ubuntu.vm.synced_folder "shared",
+        debian.vm.synced_folder "shared",
         "/home/vagrant/host_shared_folder"
         debian.vm.hostname = "debian-work"
         debian.vm.provision "shell",
