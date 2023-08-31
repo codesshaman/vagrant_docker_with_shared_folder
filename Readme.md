@@ -6,7 +6,7 @@ Your need install [vagrant](https://github.com/hashicorp/vagrant-installers/rele
 
 ### Step 1
 
-Download box bento/debian-11 for virtualbox from [vagrantup](https://app.vagrantup.com/bento/boxes/debian-11.5 "vagrantup").
+Download box bento/debian-12 for virtualbox from [vagrantup](https://app.vagrantup.com/bento/boxes/debian-12 "vagrantup").
 
 ### Step 2
 
@@ -16,7 +16,7 @@ Clonr this repository: git clone https://github.com/codesshaman/vagrant_docker_w
 
 Copy box and go inside the repository folder:
 
-``cp ~/Downloads/a22d1053-8311-450b-a740-6e3017c087f8 path_to/vagrant_docker_with_shared_folder/debian``
+``cp ~/Downloads/735dbb34-5371-4996-8166-f3847a2bfc48 path_to/vagrant_docker_with_shared_folder/debian``
 
 ``cd vagrant_docker_with_shared_folder``
 
@@ -24,7 +24,7 @@ Copy box and go inside the repository folder:
 
 Inicialize configuration:
 
-``vagrant box add bento/debian-11.5 debian``
+``vagrant box add bento/debian-12 debian``
 
 or with make:
 
